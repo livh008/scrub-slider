@@ -1,3 +1,8 @@
+.main .container-fluid{
+	padding:0px;
+	margin: 0px;
+}
+
 .scrub-slider {
     position: relative;
     max-width: 100%;
@@ -95,4 +100,70 @@
     border-left: 10px solid #fff
 }
 
+/* FONTS *
+-----------------------------------------------*/
+.display {
+	font-family: hatch, sans-serif;
+}
 
+.GistExtrabold { 
+	font-family: GistExtrabold;
+	font-weight: normal;
+	font-style: normal;
+}
+.GistRegular { 
+	font-family: GistRegular;
+	font-weight: normal;
+	font-style: normal;
+}
+.GistUprightExtrabold { 
+	font-family: GistUprightExtrabold;
+	font-weight: normal;
+	font-style: normal;
+}
+.GistUprightRegular { 
+	font-family: GistUprightRegular;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.BeforeText {
+    color: rgba(0,0,0,1.00);
+    font-family: GistRegular;
+    font-size: 10px;
+    text-align: left;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-image: -webkit-linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    display: block;
+    position: relative;
+    width: 12%;
+    margin-top: 96%;
+}
+
+.AfterText {
+    color: rgba(0,0,0,1.00);
+    font-family: GistRegular;
+    font-size: 10px;
+    text-align: right;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+   background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(90deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    display: block;
+    width: 12%;
+    float: right;
+    position: relative;
+    margin-top: 3%;
+}
