@@ -142,9 +142,10 @@
     background-image: -o-linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
     background-image: linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
     display: block;
-    position: relative;
-    width: 12%;
-    margin-top: 600px;
+    position: absolute;
+	top:80vh;
+	left:0vh;
+	width:70px;
 }
 
 .AfterText {
@@ -162,8 +163,9 @@
     background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
     background-image: linear-gradient(90deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
     display: block;
-    swidth: 12%;
+    width: 60px;
     float: right;
-    position: relative;
-
+    position: absolute;
+	bottom:80vh;
+	right:0vh;
 }
