@@ -39,7 +39,7 @@
     right: 0
 }
 
-.scrub-slider .scrub-content>div {
+.scrub-slider .scrub-content >div {
     position: absolute;
     height: 100vh;
     width: 100%;
