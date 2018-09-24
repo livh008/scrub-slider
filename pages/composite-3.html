@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Scrub Slider">
+    
+    <title>Scrub Slider</title>
+
+    <link href="../dist/Scrub.min.css" rel="stylesheet">
+    <link href="../dist/ScrubDev.min.css" rel="stylesheet">
+   
+  </head>
+
+<body style="background-color:dimgray">
+
+<main class="container-fluid">
+<section>
+    <div class="col-xs-12" id="slider8">
+          <div id="BeforeImage">
+			<p class="BeforeText">Before</p>
+		</div>
+          <div id="AfterImage">
+			<p class="AfterText">After</p>
+		</div>
+    </div>
+  </section>
+</main>
+
+<script src="../dist/Scrub.min.js"></script>
+<script>
+var a=document.getElementById("slider8");
+if(a.offsetTop<window.innerHeight)var b=window.innerHeight-a.offsetTop+"px";
+Scrub( {
+    target: "#slider8", 
+	height: b, 
+	handle: !0, 
+	src: ["https://uploads-ssl.webflow.com/5b2e3ce4fd7a4dd715a02f12/5b9e5994b4189e6b2ad181de_little%20christmas%20girl%20-%20b.jpg", "https://uploads-ssl.webflow.com/5b2e3ce4fd7a4dd715a02f12/5b9e5994edf84b238a1b7fd7_little%20christmas%20girl%20-%20a.jpg"], 
+	alt: ["Before", "After"]
+}
+
+),	
+Scrub("#slider20"),
+Scrub( {
+    target: ".slider30", height: "100vh"
+}
+
+);
+
+	</script>
+</body>
+</html>

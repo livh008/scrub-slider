@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Scrub Slider">
+    
+    <title>Scrub Slider</title>
+
+    <link href="../dist/Scrub.min.css" rel="stylesheet">
+    <link href="../dist/ScrubDev.min.css" rel="stylesheet">
+   
+  </head>
+
+<body style="background-color:dimgray">
+
+<main class="container-fluid">
+<section>
+    <div class="col-xs-12" id="slider13">
+          <div id="BeforeImage">
+			<p class="BeforeText">Before</p>
+		</div>
+          <div id="AfterImage">
+			<p class="AfterText">After</p>
+		</div>
+    </div>
+  </section>
+</main>
+
+<script src="../dist/Scrub.min.js"></script>
+<script>
+var a=document.getElementById("slider13");
+if(a.offsetTop<window.innerHeight)var b=window.innerHeight-a.offsetTop+"px";
+Scrub( {
+    target: "#slider13", 
+	height: b, 
+	handle: !0, 
+	src: ["https://uploads-ssl.webflow.com/5b2e3ce4fd7a4dd715a02f12/5b9e59a63661e74df576ae90_beach%20family%20vacation%20-%20b.jpg", "https://uploads-ssl.webflow.com/5b2e3ce4fd7a4dd715a02f12/5b9e59a6edf84b35901b7fdb_beach%20family%20vacation%20-%20a%20-%20pastel.jpg"], 
+	alt: ["Before", "After"]
+}
+
+),	
+Scrub("#slider20"),
+Scrub( {
+    target: ".slider30", height: "100vh"
+}
+
+);
+
+	</script>
+</body>
+</html>

@@ -1,3 +1,7 @@
+.body {
+	margin: 0px;
+}
+
 .scrub-slider {
   position: relative;
   max-width: 100%;
