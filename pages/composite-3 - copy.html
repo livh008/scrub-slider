@@ -13,15 +13,15 @@
    
   </head>
 
-<body style="background-color:white">
+<body style="background-color:dimgray">
 
 <main class="container-fluid">
 <section>
-    <div class="col-xs-12" id="slider3">
-          <div id="BeforeImage" style="background-position:top center;">
+    <div class="col-xs-12" id="slider9">
+          <div id="BeforeImage">
 			<p class="BeforeText">Before</p>
 		</div>
-          <div id="AfterImage" style="background-position:top center;">
+          <div id="AfterImage">
 			<p class="AfterText">After</p>
 		</div>
     </div>
@@ -30,13 +30,13 @@
 
 <script src="../dist/Scrub.min.js"></script>
 <script>
-var a=document.getElementById("slider3");
+var a=document.getElementById("slider9");
 if(a.offsetTop<window.innerHeight)var b=window.innerHeight-a.offsetTop+"px";
 Scrub( {
-    target: "#slider3", 
+    target: "#slider9", 
 	height: b, 
 	handle: !0, 
-	src: ["https://uploads-ssl.webflow.com/5b2e3ce4fd7a4dd715a02f12/5b9e59ae0899a44a9b807c66_Black%20haired%20beauty%20-%20b.jpg", "https://uploads-ssl.webflow.com/5b2e3ce4fd7a4dd715a02f12/5b9e59a608470eb410f9f82c_Black%20haired%20beauty%20-%20a.jpg"], 
+	src: ["https://uploads-ssl.webflow.com/5b2e3ce4fd7a4dd715a02f12/5b9e5994b4189e6b2ad181de_little%20christmas%20girl%20-%20b.jpg", "https://uploads-ssl.webflow.com/5b2e3ce4fd7a4dd715a02f12/5b9e5994edf84b238a1b7fd7_little%20christmas%20girl%20-%20a.jpg"], 
 	alt: ["Before", "After"]
 }
 

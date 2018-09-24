@@ -1033,7 +1033,8 @@
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: Montserrat, monospace
+    font-family: Montserrat, monospace;
+    background-position: center top;
 }
 
 
@@ -1053,4 +1054,3 @@ pre {
 pre span {
     color: #c71585
 }
-
